@@ -12,7 +12,7 @@
 
 .contenitore .button {
     display: flex;
-    justify-content: flex-end;
+    margin-left: 90%;
 }
 
 .button button {
@@ -63,7 +63,7 @@
     /* BARRA DI NAVIGAZIONE */
 .main_nav {
     height: auto;
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(53, 53, 53);
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
