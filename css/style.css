@@ -36,10 +36,12 @@
     /* height: 20%; */
     /* background-color: yellow; */
 }
+
 .pagina_a_b button {
     font-size: 30px;
     margin-bottom: 10px;
 }
+
 .pagina_a_b span {
     color: white;
 }
@@ -77,13 +79,26 @@
     justify-content: space-between;
 }
 
+    /* TASTI MICROFONO/VIDEO */
 .mute_stop {
-    height: 50px;
-    width: 30%;
+    display: flex;
+    align-items: center;
 
-     /* debug */
-     background-color: yellow;
+    /* debug */
+    /* background-color: yellow; */
+    /* height: 50px; */
+    /* width: 30%; */
 }
+
+.microfono, .video {
+    margin: 0 10px;
+}
+
+.microfono, .video span{
+    color: white;
+}
+
+
 
 .icone {
     height: 50px;
@@ -92,6 +107,10 @@
      /* debug */
      background-color: green;
 }
+
+
+
+
 
 .end_meeting {
     height: 50px;
