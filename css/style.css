@@ -6,7 +6,7 @@
 
     /* parte anteprima live utenti */
 .contenitore {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 57px);
     background-color: black;
 }
 
@@ -19,22 +19,19 @@
     margin: 10px 0;
 }
 
+    /* CONTENITORE FRECCIE E PHOTO */
 .utente {
     display: flex;
     justify-content: space-around;
     width: 100%;
     height: 90%;
     align-items: center;
-    /* background-color: yellow; */
 }
 
 .pagina_a_b {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 10%; */
-    /* height: 20%; */
-    /* background-color: yellow; */
 }
 
 .pagina_a_b button {
@@ -51,7 +48,6 @@
     flex-wrap: wrap;
     width: 80%;
     height: 80%;
-    background-color: blueviolet;
 }
 
 .photo {
@@ -64,30 +60,21 @@
 }
 
 
-
-
-
-
-
-
-
-    /* barra di navigazione */
+    /* BARRA DI NAVIGAZIONE */
 .main_nav {
-    height: 100px;
-    background-color: rgb(77, 76, 76);
+    height: auto;
+    background-color: rgb(71, 71, 71);
     display: flex;
     justify-content: space-between;
+    padding: 10px 0;
+
 }
 
     /* TASTI MICROFONO/VIDEO */
 .mute_stop {
     display: flex;
     align-items: center;
-
-    /* debug */
-    /* background-color: yellow; */
-    /* height: 50px; */
-    /* width: 30%; */
+    text-align: center;
 }
 
 .microfono, .video {
@@ -98,26 +85,25 @@
     color: white;
 }
 
-
-
 .icone {
-    height: 50px;
-    width: 30%;
-
-     /* debug */
-     background-color: green;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
-
-
-
+.icone span{
+    margin: 10px;
+    color: white;
+}
 
 .end_meeting {
-    height: 50px;
-    width: 20%;
-
-     /* debug */
-     background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    text-align: end;
+    color: red;
+    padding: 0 10px;
+    cursor: pointer;
+     background-color: rgb(77, 76, 76);
 }
 
 
