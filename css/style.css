@@ -21,23 +21,46 @@
 
 .utente {
     display: flex;
+    justify-content: space-around;
     width: 100%;
     height: 90%;
     align-items: center;
     /* background-color: yellow; */
-    margin: 0 auto;
 }
 
 .pagina_a_b {
-    width: 10%;
-    height: 20%;
-    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 10%; */
+    /* height: 20%; */
+    /* background-color: yellow; */
 }
-.client {
+.pagina_a_b button {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.pagina_a_b span {
+    color: white;
+}
+
+.client { 
+    display: flex;
+    flex-wrap: wrap;
     width: 80%;
     height: 80%;
     background-color: blueviolet;
 }
+
+.photo {
+    width: 20%;
+    height: 20%;
+}
+
+.photo img {
+    max-width: 100%;
+}
+
 
 
 
