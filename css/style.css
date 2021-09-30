@@ -91,6 +91,7 @@
 
 .microfono, .video {
     margin: 0 10px;
+    cursor: pointer;
 }
 
 .microfono, .video span {
@@ -107,6 +108,7 @@
 .icone span {
     margin: 10px;
     color: white;
+    cursor: pointer;
 }
 
     /* BARRA DESTRA END MEETING */
