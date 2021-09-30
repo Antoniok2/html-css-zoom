@@ -5,14 +5,61 @@
 }
 
     /* parte anteprima live utenti */
-.studenti {
+.contenitore {
     height: calc(100vh - 100px);
     background-color: black;
 }
+
+.contenitore .button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button button {
+    margin: 10px 0;
+}
+
+.utente {
+    width: 80vw;
+    height: 80vh;
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+
+
 
 
     /* barra di navigazione */
 .main_nav {
     height: 100px;
     background-color: rgb(77, 76, 76);
+    display: flex;
+    justify-content: space-between;
 }
+
+.mute_stop {
+    height: 50px;
+    width: 30%;
+
+     /* debug */
+     background-color: yellow;
+}
+
+.icone {
+    height: 50px;
+    width: 30%;
+
+     /* debug */
+     background-color: green;
+}
+
+.end_meeting {
+    height: 50px;
+    width: 20%;
+
+     /* debug */
+     background-color: cadetblue;
+}
+
+
