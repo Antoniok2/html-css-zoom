@@ -6,13 +6,14 @@
 
     /* parte anteprima live utenti */
 .contenitore {
-    height: calc(100vh - 57px);
+    height: calc(100vh - 58px);
     background-color: black;
 }
 
 .contenitore .button {
     display: flex;
     margin-left: 90%;
+    height: 40px;
 }
 
 .button button {
@@ -48,6 +49,7 @@
     flex-wrap: wrap;
     width: 80%;
     height: 80%;
+    overflow-y:scroll;
 }
 
 .photo{
